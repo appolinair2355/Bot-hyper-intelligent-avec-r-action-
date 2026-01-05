@@ -28,7 +28,7 @@ class CardPredictor:
         self.sequential_history = {} # Nouveau : historique séquentiel (N-2 -> N)
         # Configuration automatique forcée
         self.target_channel_id = -1002682552255
-        self.prediction_channel_id = -1003554569009
+        self.prediction_channel_id = -1003329818758
         self.is_inter_mode_active = True # Activé par défaut
         self.auto_prediction_enabled = True
         self.last_predicted_game_number = 0
@@ -40,7 +40,7 @@ class CardPredictor:
         self._load_all_data()
         # S'assurer que les IDs sont bien ceux demandés même après chargement
         self.target_channel_id = -1002682552255
-        self.prediction_channel_id = -1003554569009
+        self.prediction_channel_id = -1003329818758
         self._save_all_data()
 
     def _load_all_data(self):
